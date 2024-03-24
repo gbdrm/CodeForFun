@@ -27,5 +27,5 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Build the Docker image
-      working-directory: /
+      working-directory: /CodeForFun/
       run: docker build . -t gbdrm/code-for-fun:latest
