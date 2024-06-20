@@ -1,4 +1,4 @@
-namespace CodeForFun.Models
+namespace CodeForFun.Data.ViewModels
 {
     public class ErrorViewModel
     {
